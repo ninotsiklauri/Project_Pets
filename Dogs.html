@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs</title>
+    <link rel="stylesheet" href="Dogs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <a href="main.html"><img src="photos/paw.png" alt="" class="logo"></a>
+        <a href="main.html" class="petscom">Pets.com</a>
+    </div>
+
+    <div class="navbar">
+        <a href="main.html">მთავარი</a>
+        <a href="AboutUs.html">ძირითადი ინფორმაცია</a>
+        <a href="Profile.html">პროფილი</a>
+        <a href="Dogs.html">ძაღლები</a>
+        <div href="#" class="dropedownmenue">სხვა <svg xmlns="http://www.w3.org/2000/svg" width="16" 
+            height="16" fill="currentColor" class="bi bi-caret-down-fill arrow" viewBox="0 0 16 16">
+            <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+          </svg>
+            <div class="dropdown-content">
+                <a href="#">კატები</a>
+                <a href="#">ფრინველები</a>
+                <a href="#">თევზები</a>
+                <a href="#">რეპტილიები</a>
+                <a href="#">მღრღნელები</a>
+            </div>
+        </div>
+        <a href="Contact.html">კონტაქტი</a>
+        <a href="LogIn.html">ავტორიზაცია</a>
+        <a href="Registration.html">რეგისტრაცია</a>
+        <input type="text" class="search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+        fill="currentColor" class="bi bi-search searchlogo" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 
+            0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>
+    </div>
+    
+    <div class="row">
+        <div class="left">
+            <a href="#"><div class="leftmenue"><b>ჯიშები</b></div></a><br>
+            <a href="#"><div class="leftmenue"><b>ჯანმრთელობა</b></div></a><br>
+            <a href="#"><div class="leftmenue"><b>კვება</b></div></a><br>
+            <a href="#"><div class="leftmenue"><b>მოვლა</b></div></a><br>
+            <a href="#"><div class="leftmenue"><b>წვრთნა</b></div></a><br>
+            <a href="#"><div class="leftmenue"><b>საინტერესო</b></div></a><br>
+        </div>
+        <div class="midd">
+            <h2>მგელძაღლა</h2>
+            <p>ძაღლისა და მგლის ჰიბრიდები ზოგჯერ ველურ ბუნებაშიც იბადებიან, ხოლო ხელოვნური ჩარევით ახალი 
+                ჯიშების გამოყვანა რამდენიმე ათწლეულებია მიმდინარეობს. დღეს მსოფლიოში არსებობს მგლისა და 
+                ძაღლის ჰიბრიდის სულ მცირე, ორი აღიარებული და რამდენიმე ათეული არაოფიციალური სახეობა. </p>
+            <div class="slide1">
+                <div class="slider">
+                    <img src="photos/wolfdog1.jpg" alt="" class="photo">
+                    <img src="photos/wolfdog2.jpg" alt="" class="photo">
+                    <img src="photos/wolfdog3.jpg" alt="" class="photo">
+                    <img src="photos/wolfdog4.jpg" alt="" class="photo">
+                    <img src="photos/wolfdog5.jpg" alt="" class="photo">
+                    <div id="wolfdog" style="position: absolute; font-size: 20px; text-align: center;">
+                        <p><b>მგელძაღლა</b></p>
+                        <p>(სასურველი ფოტოს გასადიდებლად მიიტანეთ კურსორი ფოტოსთან)</p>
+                    </div>
+                </div>
+                <div class="photocontainer">
+                    <div>
+                        <img src="photos/wolfdog1.jpg" alt="" height="130px" onmouseover="currentPhoto(1)">
+                    </div>
+                    <div>
+                        <img src="photos/wolfdog2.jpg" alt="" height="130px" onmouseover="currentPhoto(2)">
+                    </div>
+                    <div>
+                        <img src="photos/wolfdog3.jpg" alt="" height="130px" onmouseover="currentPhoto(3)">
+                    </div>
+                    <div>
+                        <img src="photos/wolfdog4.jpg" alt="" height="130px" onmouseover="currentPhoto(4)">
+                    </div>
+                    <div>
+                        <img src="photos/wolfdog5.jpg" alt="" height="130px" onmouseover="currentPhoto(5)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <a href="#"><div class="leftmenue"><b>განაცხადის დამატება</b></div></a><br>
+            <a href="#"><div class="leftmenue"><b>გასაჩუქებელი</b></div></a><br>
+            <a href="#"><div class="leftmenue"><b>ნაპოვნი</b></div></a><br>
+            <a href="#"><div class="leftmenue"><b>დაკარგული</b></div></a><br>
+        </div>
+    </div>
+    
+    <label for="dark-mode">
+        <button class="drk"></button>
+    </label>
+
+    <div class="footer">
+        <pre>copyright © 2020                 Site Created By: Nino Tsiklauri</pre>
+    </div>
+    
+    <script src="Dogs.js"></script>
+</body>
+</html>

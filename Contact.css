@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}  
+body{
+  font-family: sans-serif;
+  margin: 0;
+}  
+.header{
+  position: relative;
+  padding: 1px;
+  height: 80px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #eea35d;
+  color: white;
+}  
+.logo{
+  height: 60px;
+  float: left;
+}
+.petscom{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+.navbar{
+  position: relative;
+  display: flex;
+  background-color: #704d2c;
+  position: sticky;
+  top: 0;
+}
+.navbar a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #ac7542;
+  color: black;
+}
+.search{
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  padding: 7px;
+  border-radius: 15px;
+  width: 250px;
+  border: none;
+}
+.search:focus{
+  outline: none;
+}
+.searchlogo{
+  position: absolute;
+  top: 13px;
+  right: 25px;
+  color: black;
+}
+.row{  
+  display: flex;
+  flex-wrap: wrap;
+}
+.left{
+  flex: 20%;
+  background-color: #eccdb0;
+  padding: 20px;
+  height: 780px;
+}
+.midd{
+  flex: 60%;
+  background-color: white;
+  padding: 20px;
+}
+.right{
+  flex: 20%;
+  background-color: #eccdb0;
+  padding: 20px;
+  height: 780px;
+}
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #eea35d;
+}
+/* ---------------dark-mode---------------- */
+label{
+  position: absolute;
+  width: 45px;
+  height: 22px;
+  right: 20px;
+  top: 20px;
+  border: 2px solid;
+  border-radius: 20px;
+  z-index: 3;
+}
+.drk{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 1px;
+  top: 1px;
+  border-radius: 50px;
+  background-color: black;
+  border: 0;
+  cursor: pointer;
+}
+.drk:focus{
+  outline: 0;
+}
+.active{
+  left: 24px;
+  background-color: white;
+}
+.darkleft{
+  background-color: black;
+  color: white;
+}
+.darkmidd{
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+.darkheader{
+  background-color: #583a1e;
+}
+/* -------------------languages------------------ */
+.languages{
+  position: absolute;
+  top: 20px;
+  right: 80px;
+}
+.translate{
+  height: 23px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #583a1e;
+  color: white;
+}
+.translate:hover{
+  background-color: #a36932;
+}
+.translate:focus{
+  outline: 0;
+}
+/* -------------------dropedownmenue-------------------- */
+.dropedownmenue{
+  position: relative;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.dropedownmenue:hover{
+  background-color: #ac7542;
+  color: black;
+}
+.dropdown-content {
+  display: none;
+  top: 45px;
+  left: 0px;
+  position: absolute;
+  background-color: #704d2c;
+  min-width: 160px;
+  box-shadow: 4px 8px 16px 4px rgb(53, 53, 53);
+  z-index: 1;
+}
+.dropedownmenue:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+@media screen and (max-width: 600px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+    .search{
+        position: absolute;
+        right: 10px;
+        top: 365px;
+        padding: 7px;
+        border-radius: 15px;
+        width: 250px;
+        border: none;
+    }
+    .searchlogo{
+        position: absolute;
+        top: 371px;
+        right: 25px;
+        color: black;
+    }
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <a href="main.html"><img src="photos/paw.png" alt="" class="logo"></a>
+        <a href="main.html" class="petscom">Pets.com</a>
+        <div class="languages">
+            <button class="translate" id="en">EN</button>
+            <button class="translate" id="ka">ქარ</button>
+        </div> 
+    </div>
+
+    <div class="navbar">
+        <a href="main.html" class="lang" key="main">მთავარი</a>
+        <a href="AboutUs.html" class="lang" key="basic">ძირითადი ინფორმაცია</a>
+        <a href="Profile.html" class="lang" key="profile">პროფილი</a>
+        <a href="Dogs.html" class="lang" key="dogs">ძაღლები</a>
+        <div href="#" class="lang dropedownmenue" key="other">სხვა <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill arrow" viewBox="0 0 16 16">
+            <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+          </svg>
+            <div class="dropdown-content">
+                <a href="#" class="lang" key="cats">კატები</a>
+                <a href="#" class="lang" key="birds">ფრინველები</a>
+                <a href="#" class="lang" key="fishs">თევზები</a>
+                <a href="#" class="lang" key="rep">რეპტილიები</a>
+                <a href="#" class="lang" key="rodents">მღრღნელები</a>
+            </div>
+        </div>
+        <a href="Contact.html" class="lang" key="contact">კონტაქტი</a>
+        <a href="LogIn.html" class="lang" key="authorization">ავტორიზაცია</a>
+        <a href="Registration.html" class="lang" key="registration">რეგისტრაცია</a>
+        <input type="text" class="search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search searchlogo" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>
+    </div>
+    
+    <div class="row">
+        <div class="left">
+            <h2 class="lang" key="aboutanimals">ცხოველების შესახებ</h2>
+            <img src="photos/pets.jpg" alt="" style="height:250px;">
+            <p class="lang" key="info">ინფორმცია შინაური ცხოველების შესახებ/ინფორმცია შინაური ცხოველების შესახებ</p>
+        </div>
+        <div class="right">
+            <h2 class="lang" key="existingarticles">არსებული სტატიები</h2>
+            <div class="slide1">
+                <!-- //--------------------------1--------------------------- -->
+                <div class="slider1">
+                    <div class="slidephotos">
+                        <img src="photos/slide11.jpg" alt="dog" style="height:320px;">
+                        <div class="slidetext"><b><p style="font-size: 20px;" class="lang" key="dalmatian">დალმატინელი</p></b>
+                            <p class="lang" key="infodalmatian">ენერ­გი­უ­ლი და მხი­ა­რუ­ლი დალ­მა­ცი­ე­ლი შე­სა­ნიშ­ნა­ვი არ­ჩე­ვა­ნია მათ­თვის, 
+                                ვი­საც მის სა­ვარ­ჯი­შოდ და გა­საწ­ვრთნე­ლად საკ­მა­რი­სი დრო აქვს. მი­სი გა­რეგ­ნო­ბა ყვე­ლას აღაფ­რთო­ვა­ნებს, 
+                                მაგ­რამ ამ ძაღლს სხვა უფ­რო მნიშ­ვნე­ლო­ვა­ნი ღირ­სე­ბე­ბიც აქვს. დალ­მა­ტი­ნე­ლის წარ­მო­შო­ბა გა­ურ­კვე­ვე­ლი­ა, 
+                                მაგ­რამ ცნო­ბი­ლი­ა, რომ XIX სა­უ­კუ­ნის ევ­რო­პა­სა და ბრი­ტა­ნეთ­ში მა­თი ძი­რი­თა­დი ფუნ­ქცია ცხე­ნებ­შებ­მუ­ლი 
+                                ეტ­ლის გვერ­დით სირ­ბი­ლი და მძარ­ცვე­ლე­ბის­გან მგზავ­რე­ბის დაც­ვა იყო.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- //--------------------------2--------------------------- -->
+                <div class="slider1">
+                    <div class="slidephotos">
+                        <img src="photos/slide12.jpg" alt="dog" style="height:320px;">
+                        <div class="slidetext"><b><p style="font-size: 20px;" class="lang" key="cat">სავანის კატა</p></b>
+                            <p class="lang" key="infocat">სავანა (ინგლ. Savannah cat) - შინაური კატების ჯიში, რომელიც დაიბადა გარეული 
+                                აფრიკის სერვალი და შინაური კატების გადაკვეთის შედეგად. დიდი ზომა, ველური გარეგნობა, 
+                                ელეგანტურობა, სწორედ ეს განასხვავებს ამ ჯიშს. მაგრამ, სავანები ძალიან ძვირია, 
+                                იშვიათია და ხარისხიანი კატის ყიდვა არც ისე ადვილი საქმეა.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- //--------------------------3--------------------------- -->
+                <div class="slider1">
+                    <div class="slidephotos">
+                        <img src="photos/slide13.jpg" alt="dog" style="height:320px;">
+                        <div class="slidetext"><b><p style="font-size: 20px;" class="lang" key="pit">პიტბული</p></b>
+                            <p class="lang" key="infopit">ამერიკულ პიტ ბულ ტერიერს შემოკლებით ხშირად მოიხსენიებენ როგორც პიტ ბულ ტერიერს, 
+                                პიტ ბულს ან პიტს. ძაღლის ეს ჯიში საჩხუბრად გამოიყვანეს და დღემდე საშიში ძაღლის 
+                                რეპუტაციას ინარჩუნებს. მრავალ ქვეყანაში აკრძალვებია დაწესებული პიტის ყოლასთან დაკავშირებით. 
+                                რა თქმა უნდა, პიტ ბულს აქვს პოტენციალი იყოს ძალიან საშიში, თუმცა ყველაფერი მის აღზრდაზეა დამოკიდებული.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="slide1button" onclick="plusDivs(-1)">❮ Prev</button>
+                    <button class="slide1button" onclick="plusDivs(-1)">Next ❯</button>
+                </div>
+            </div>
+            <br><br>
+            <div class="card-group">
+                <div class="card">
+                  <img src="photos/bed1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="lang" key="bed">ძაღლის საწოლი</h3>
+                    <p class="lang" key="bedinfo">ძაღლის საწოლი, რბილი და ხარისხიანი, ლეკვებისთვის და ძაღლებისთვის. სვადასხვა ზომის ...</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="photos/bed2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="lang" key="bed">ძაღლის საწოლი</h3>
+                    <p class="lang" key="bedinfo">ძაღლის საწოლი, რბილი და ხარისხიანი, ლეკვებისთვის და ძაღლებისთვის. სვადასხვა ზომის ...</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="photos/bed3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="lang" key="bed">ძაღლის საწოლი</h3>
+                    <p class="lang" key="bedinfo">ძაღლის საწოლი, რბილი და ხარისხიანი, ლეკვებისთვის და ძაღლებისთვის. სვადასხვა ზომის ...</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    
+    <label for="dark-mode">
+        <button class="drk"></button>
+    </label>
+
+    <div class="footer">
+        <pre>copyright © 2021                 Site Created By: Nino Tsiklauri</pre>
+    </div>
+    
+    <script src="Main.js"></script>
+</body>
+</html>
