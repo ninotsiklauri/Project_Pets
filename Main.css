@@ -29,8 +29,8 @@ body{
   position: relative;
   display: flex;
   background-color: #704d2c;
-  position: sticky;
-  top: 0;
+  /* position: sticky; */
+  /* top: 0; */
 }
 .navbar a {
   color: white;
@@ -237,6 +237,9 @@ label{
 }
 .card{
   border: 1px solid gray;
+}
+.card-body{
+  padding: 15px;
 }
 @media screen and (max-width: 600px) {
     .row, .navbar {   
