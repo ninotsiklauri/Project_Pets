@@ -65,7 +65,9 @@ var arrLang = {
         'rodents':'Rodent',
         'fishs':'Fishs',
         'bed':`Dog's bed`,
-        'bedinfo':'Dog bed, soft and quality, for puppies and dogs. Different sizes ...'
+        'bedinfo':'Dog bed, soft and quality, for puppies and dogs. Different sizes ...',
+        'food':'Food',
+        'foodforanimals':'Food for Animals is an American hip hop group formed in 2001 near Washington, D.C.. The group features Vulture Voltaire (Andrew Field-Pickering)'
     },
     'ka':{
         'main':'მთავარი',
@@ -99,7 +101,9 @@ var arrLang = {
         'rodents':'მღრღნელები',
         'fishs':'თევზები',
         'bed':'ძაღლის საწოლი',
-        'bedinfo':'ძაღლის საწოლი, რბილი და ხარისხიანი, ლეკვებისთვის და ძაღლებისთვის. სვადასხვა ზომის ...'
+        'bedinfo':'ძაღლის საწოლი, რბილი და ხარისხიანი, ლეკვებისთვის და ძაღლებისთვის. სვადასხვა ზომის ...',
+        'food':'საკვები',
+        'foodforanimals':'გაახარეთ თქვენი მეგობარი გემრიელი და სასარგებლო საკვებით. რაც ყველაზე მნიშვნელოვანია ჩვენთან ხარისხი გარანტირებულია!'
     }
 }
 $(function(){
